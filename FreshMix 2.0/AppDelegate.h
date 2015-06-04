@@ -7,8 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <Parse/Parse.h>
+#import "SignInViewController.h"
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface AppDelegate : UIResponder <UIApplicationDelegate> {
+    NSMutableString *mixtapename;
+    
+}
 
 @property (strong, nonatomic) UIWindow *window;
 
